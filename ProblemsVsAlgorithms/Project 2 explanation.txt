@@ -1,0 +1,16 @@
+Problem 1: Square Root 
+The function uses a binary search algorithm and has a best-case efficiency of O(1) and worst case (average case) and an efficiency of O(log n) where n is the number provided.
+Problem 2: Search Rotated Array
+Given a rotated sorted array , we can use the midpoint as pivot and then identify the shift of the sorted array by applying binary search on the 2 different splits. It has a time complexity of O(log(n)) and Space Complexity of O(1)
+Problem 3: Rearrange Array Elements
+Merged the numbers iterating through the array appended the numbers to form the list of two number such that their sum is maximum using the merge sort and having time  O(nlog(n)) and space complexity of O(n)
+Problem 4 : Dutch National Flag Problem
+Swap items in the list taking a pivot point and checking the left & right parts of the list with a  time complexity of O(n) and space complexity of O(3)
+Problem 5: Autocomplete with Tries
+Here a trie was to be implemented  and for my case we have TrieNode containing insert, all_words and suffixes methods and the Trie class is made with the insert word , find and suffixes methods.
+TrieNode insert method complexity is o(1) and space is O(1) , suffixes take time complexity of o(e^n) where e is the maximum number of elements per level with n level and Trie’s insert method takes up time complexity of O(n) and space complexity of O(n) , suffixes method take time complexity of o(e^n) similar to earlier and  find method takes time complexity O(n) and Space O(1)
+Problem 6: Max and Min in an Unsorted Array
+Here I started with code to start with max and min values as the first item in the list and check through the list updated the max and min values to find the final min and max values and has time complexity: O(n) and space complexity: O(1)
+Problem 7 : 
+Here the RouteTrieNode has value, handler and pointer to next nodeand the node has been used for the RouteTrie class. RouteTrieNode has a time and space complexity of O(1) and the RouteTrie with a time complexity and space complexity of  O(n)  for the lookup and add handler_methods
+
