@@ -1,0 +1,32 @@
+Task 0:
+My solution performed a straightforward traverse of the nested lists (texts and calls) to obtain the required telephone numbers and ran with in 0.001s.
+
+Task 1:
+
+My solution has a function unique_list that returns a unique list of phone numbers from the nested lists (calls and texts)
+
+Using %timeit and passing one nested list to the function(example: unique_list([[1,2,3]), I received a best run time of 9.06 µs per loop, adding a second list to the input (example: unique_list([[1,2,3],[2,3,4]]), increased the best run time I received to 9.92 µs per loop showing a linear increase of time needed to run.( O(n) or linear complexity.)
+
+Task 2:
+
+My solution has a function get_maxdurationnumber that returns the telephone number that made the longest duration of call as well the duration itsled.
+
+Using %timeit and passing one nested list to the function (example: get_maxdurationnumber([['1','2','3','4']])), I received a best run time of 6.32 µs per loop, adding a second list to the input (example: get_maxdurationnumber([['1','2','3','4'],['3','3','5','6']])) increased the best run time I received to 7.3 µs per loop showing a linear increase of time needed to run.( O(n) or linear complexity.)
+
+Task 3:
+
+Part A -
+
+
+My solution has 2 function codeslist(lists_calls) & shorten(list_value) that are used to get the unique list of codes of the number called. Since the function take in lists the time needed to run the function is bound to increase in a linear fashion.
+
+Part B – 
+
+My solution uses functions get_percentage(nestedlist, string_value_code)and previously defined function codeslist(lists_calls) to get the desired percentage value. 
+Hence,the time needed to run also increases in a linear fashion as it takes in lists of values. ( O(n) or linear complexity.)
+
+
+Task 4:
+
+My soultions uses a function gettelenumbers(list_values,string_value) that takes in nestedlist(calls) and the string value to match. Since the function takes in lists as the varible size increases , the time taken to run also increases linearly. (O(n) or linear complexity.
+
